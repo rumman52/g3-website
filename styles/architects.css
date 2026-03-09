@@ -212,9 +212,28 @@ main > section{
 }
 
 
+/* Footer Section */
+.site-footer {
+  max-width: 1400px;
+  margin: 50px auto;
+  padding: 18px 20px;
+  background: #f3e8d9;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.site-footer p {
+  margin: 0;
+  font-size: 13px;
+  color: #6b6b6b;
+  font-weight: 400;
+}
+
+
+
 /* responsive media query */
 @media screen and (max-width: 576px) {
-    .navbar, .nav-links, .teams, .features{
+    .navbar, .nav-links, .teams, .features, .site-footer{
         flex-direction: column;
     }
     .team-img-container, .facts-container, .sponsor-companies{
